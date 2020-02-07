@@ -25,7 +25,7 @@ public class Work {
         this.jobDescription = jobDescription;
     }
 
-
+    //adding input from user into constructor
     public ArrayList<Work> addWork() {
         System.out.println("Lets enter your work history");
         System.out.println("Enter your Company: ");

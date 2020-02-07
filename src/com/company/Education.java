@@ -23,7 +23,7 @@ public class Education {
         this.graduationYear = graduationYear;
     }
 
-
+    //adding input from user into constructor
     public ArrayList<Education> addEducation() {
         System.out.println("Time for Education!");
         while (start){

@@ -12,10 +12,12 @@ public class Person {
     private Skills skills;
     private ArrayList<Person> personList = new ArrayList<>();
 
+    //making new objects
     Education e1 = new Education();
     Work w1 = new Work();
     Skills s1 = new Skills();
 
+    //start method
     public void Start() {
         addPerson();
         e1.addEducation();
@@ -33,7 +35,7 @@ public class Person {
         this.name = name;
         this.emailAddress = emailAddress;
     }
-
+    //toString method to print out all the objects
     public String toString(ArrayList<Person> personList) {
         return (this.getName() +
                 "\n" + this.getEmailAddress() + "\n" +

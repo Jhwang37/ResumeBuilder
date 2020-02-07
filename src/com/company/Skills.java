@@ -18,6 +18,7 @@ public class Skills {
         this.skillRating = rating;
     }
 
+    //adding input from user into constructor
     public ArrayList<Skills> addSkills() {
         System.out.println("Time to enter what you're all about: ");
         System.out.println("Enter your skill name: ");
